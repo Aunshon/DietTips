@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".fifthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Fast Low-Step Running"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to: Find a low step and stand in front of it. Quickly step up onto it and back down — right and left up, right and left down — as fast as you can for 30 seconds.
+
+Beginner's tip: Perform exercise at a slower pace and gradually increase your speed as you become more comfortable with the exercise.
+
+*Booster: Pump your arms to give yourself more speed — and work those arm muscles too!"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Basketball Jumps"
+                    android:textStyle="bold"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/b"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to: This move is similar to jumping jacks, but you are moving side to side. Take a long low step to the right, bend through the legs, step the left foot in, and spring off both feet to shoot your basketball. Repeat on the other side, alternating between both sides for 30 seconds.
+
+Beginner's tip: To protect your knees, make sure they stay aligned with your toes.
+
+*Booster: The lower you go, the higher you jump — and the more calories you burn!"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Sideways Running"
+                    android:textStyle="bold"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/c"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to: This agility move is great for sculpting inner and outer thighs. Starting with your right foot, run three steps sideways to the right. The last step of your right foot should stick as you drop your weight into that leg, and then push off and step out with your left. Think of rhythm with this one — the timing should feel like, one, two, drop, and push; one, two, drop and push."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Jumping Jacks"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/d"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to: Stand with your feet together, arms at your sides, and jump about shoulder width apart. As you jump, swing both arms out to the side or overhead. Toes and knees should be slightly turned out. Jump again and return legs and arms to starting position. Repeat for 30 seconds.
+
+Beginner's tip: To reduce jarring in the legs, focus on landing softly and make sure your heels touch the ground. There shouldn't be any tremendously loud thumps – rather, focus on landing quietly.
+
+*Booster: Increase your speed and see how many you can complete in the 30-second interval."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Pushups on Knees"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/e"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to: Kneel on the ground and walk your hands forward until they are slightly wider than shoulder width apart. Straighten your arms and look directly ahead at the floor. Keeping abs tight, bend your elbows and lower your upper body until your chest is 4 inches off the floor. Exhale as you straighten your arms, returning to the starting position. Repeat for 30 seconds.
+
+Beginner's tip: This is a great variation for people who are still building their upper body strength. Drop your shoulders down away from your ears and keep your butt down and core tight.
+
+*Booster: When you feel ready, modify this move to pushups on your toes for an even harder upper body and core workout."
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fifthadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2058926917596778/1278109266">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

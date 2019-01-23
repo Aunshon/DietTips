@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".thirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Manage your blood glucose."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consistently high blood glucose can damage blood vessels and nerves. For most adults, an A1C of under 7 percent is ideal. Keeping things level matters, too. Because A1C is a measure of the average blood glucose over the past two to three months, wild glucose swings may average out to an A1C in your target range. But repeated highs up your risk for long-term complications, while severe lows are immediately life-threatening. At-home blood glucose tests as directed can show what’s happening in between those A1Cs."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Lower high blood pressure."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood pressure affects both the large and small blood vessels, says Eugene Barrett, MD, PhD, professor of medicine and director of the Diabetes Center at the University of Virginia. Any condition based on blood vessel damage—such as kidney disease, retinopathy (eye damage), and heart disease—worsens faster when a person’s blood pressure is too high. Quitting smoking, lowering salt intake, exercising, and taking medications as prescribed are all ways to lower blood pressure."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Monitor cholesterol levels."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal cholesterol (too much “bad,” not enough “good” fats in the blood) is common with diabetes. This makes heart disease much more likely. Your doctor will monitor your LDL  (“bad”) and HDL (“good”) cholesterol, and triglycerides. Actions to manage blood glucose—achieving a healthy weight, exercising more, and eating fruits, veggies, whole grains, and healthy fats—also help to normalize cholesterol. Many people also need the protection of effective prescription drugs called statins."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Stop smoking."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We can’t stress enough: Don’t start, and if you already smoke, give yourself the gift of quitting. Smoking greatly ups the risk of damage to your heart, brain, blood vessels, eyes, nerves, and more. Make an appointment with your health care provider to design your quit plan now."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Lose weight."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For those who are overweight or obese, shedding a few pounds could be the difference between health and heart attack. Weight loss reduces your risk for heart disease and foot problems. It also lowers insulin resistance, which improves blood glucose control."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Eat smart."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choosing the most nutritious food sources (fruits, veggies, whole grains, lean proteins, low-fat dairy, and plant- and fish-based fats) for your daily calories while managing how many carbohydrate grams you eat overall is the essence of a diabetes-friendly eating plan. Think: “more of the good stuff, less of the bad”—limit extra calories, saturated fat, added sugar, and excess sodium."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Exercise more."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One of the best ways to improve your health is by staying active. Exercise increases insulin sensitivity, improves heart health and “good” cholesterol, reduces stress, blood pressure, and “bad” cholesterol, and is a key element of weight loss. Talk to your doctor about exercises you can do if vision or balance problems, pain, or nerve damage makes activity difficult."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Mind your eyes and toes."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A dilated eye exam helps your doctor spot and monitor any eye damage. A simple foot check at every visit to your primary care provider is an easy precaution. For people with neuropathy, and especially those who don’t have feeling in their feet or legs, seeing a foot doctor is crucial."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. Be your own health advocate."
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your doctor and diabetes educator can help you prevent (or treat) complications only if you take an active role in your health, says Barrett. Engage your providers with comments and questions during visits, know the results of your diabetes health lab tests and checks, ask for referrals when necessary, speak up when something’s not working, and don’t be afraid to suggest something new. It’s your body, so be as informed about it as you can be."
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/thirdadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2058926917596778/1278109266">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
